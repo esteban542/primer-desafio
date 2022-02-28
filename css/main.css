@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+  body{
+    background-color: aqua;
+}
+  
+  .cuerpo {
+    height: 100%;
+    width:auto;
+    display:flex;
+    justify-content:center;
+}
+  
+  .cuerpo .cuerpoPagina {
+    border:solid lightyellow 8px;
+    text-align:center;
+    background-color: black;
+    padding:2rem;
+}
+  
+  .cuerpo .cuerpoPagina .cajaMuestra {
+    border:solid white 4px;
+    padding:10px;
+}
+  
+  .cuerpo .cuerpoPagina .cajaMuestra .parrafo {
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+  
